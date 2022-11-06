@@ -1,7 +1,7 @@
-const turnOn = document.getElementById("turnOn")
-const turnOff = document.getElementById("turnOff")
-const lamp = document.getElementById("lamp")
-const body = document.getElementById("body")
+const turnOn = document.querySelector("#buttonOn")
+const turnOff = document.getElementById("buttonOf")
+const lamp = document.querySelector("#lamp")
+const body = document.getElementsByTagName("body")[0]
 const title = document.getElementById("title")
 const lampBord = document.getElementById("lampLight")
 const squareBord = document.getElementById("squareLigth")
@@ -51,5 +51,6 @@ function lampBroken() {
   squareBord.style.removeProperty("box-shadow")
 }
 
-turnOn.addEventListener("click", lampOn)
-turnOff.addEventListener("click", lampOff)
+buttonOn.addEventListener("click", lampOn)
+buttonOf.addEventListener("click", lampOff)
+lamp.addEventListener("dblclick", lampBroken)

@@ -12,10 +12,12 @@ body{
   justify-content: center;
   align-items: center;
 }
+
 .titulo{
     margin-bottom: 50px;
     font-size: 40px;
     font-family: 'Noto Sans Mono', monospace;
+    text-align: center;
 }
 .container-02{
     width: 700px;
