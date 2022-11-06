@@ -1,0 +1,41 @@
+@media (max-width:1400px){
+    .titulo{
+        margin-bottom: 35px;
+    }
+    .container-02{
+        width: 500px;
+        height: 500px;
+        transition: 0.5s ease-in-out;
+    }
+    .lamp{
+        height: 300px;
+        width: 300px;
+        transition: 0.5s ease-in-out;
+    }
+    .lamp img{
+        margin: 10px;
+        border-radius: 50%;
+        height: 200px;
+    }
+}
+@media (max-width:1000px){
+    .titulo{
+        margin-bottom: 50px;
+    }
+    .container-02{
+        width: 350px;
+        height: 350px;
+        transition: 0.2s ease-in-out;
+    }
+    .button{
+        width: 85%;
+    }
+    .lamp{
+        height: 150px;
+        width: 150px;
+        transition: 0.2s ease-in-out;
+    }
+    .lamp img{
+        height: 100px;
+    }
+}
